@@ -15,7 +15,7 @@ python3 nibna_cancer_driver_script.py
 Do you want to use custom dataset for passenger genes filtering (True/False): 
 ```
 
-4. File output will be in your custom output folder in part 1. *"The list of files created by the script are as follows,*
+4. File output will be in your custom output folder in part 1. *"The list of files created by the script are as follows,* </br>
 `critical_nodes.csv` contains list of all predicted cancer drivers.
   2. `cancer_node_importance.jpg` contains a plot showing the distribution of node importance scores.
   3. `top_k_50_validated_genes.csv` contains top-50 predicted coding cancer drivers. Similarly, the remaining file names with same name convention contain predicted cancer drivers     for different values of threshold.
