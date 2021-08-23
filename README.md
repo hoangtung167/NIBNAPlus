@@ -2,7 +2,7 @@
 NIBNA Plus tool is based on NIBNA tool with an addition of passenger genes filtering and alternative community detection algorithms. The original tool can be found at https://github.com/mandarsc/NIBNA.
 
 ## Necessary Logistics
-To run the program, you need to install 'python 3' along with the following libaries 'seaborn','numpy','pandas','matplotlib','scipy','python-louvain','networkx','pygam'. 
+To run the program, you need to install 'python3' along with the following libaries 'seaborn' , 'numpy' , 'pandas' , 'matplotlib' , 'scipy' , 'python-louvain' , 'networkx' , 'pygam'. 
 
 ## Running the program 
 1. Change the 'Data_DIR' and 'OUT_DIR' in 'utils.py', 'network_node_importance.py', and 'passenger_genes_filtering.py' to the appropriate folder in your computer
