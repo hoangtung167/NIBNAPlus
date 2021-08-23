@@ -23,9 +23,9 @@ Do you want to use custom dataset for passenger genes filtering (True/False):
 *`coding_candidate_drivers_mutations.csv` contains list of predicted coding drivers with mutations.* </br>
 *`coding_candidate_drivers_no_mutations.csv` contains list of predicted coding drivers without mutations.* </br>
 *`noncoding_candidate_drivers.csv` contains list of predicted non-coding drivers.* </br>
-*`performance_metrics.csv` contains precision, recall and f1-score of the predicted coding cancer drivers."* </br> (Mandar, Bioinformatics, 2021)
+*`performance_metrics.csv` contains precision, recall and f1-score of the predicted coding cancer drivers.* </br> 
 
-The results are saved in a csv file saved in `Output` directory where each row indicates the number of top-k coding genes found by this approach.
+*The results are saved in a csv file saved in `Output` directory where each row indicates the number of top-k coding genes found by this approach."*(Mandar, Bioinformatics, 2021)
 ## Citation
 [1] Chaudhary, Mandar S., Vu VH Pham, and Thuc D. Le. "NIBNA: A network-based node importance approach for identifying breast cancer drivers." Bioinformatics (2021).
 
