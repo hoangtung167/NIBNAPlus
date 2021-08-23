@@ -16,14 +16,14 @@ Do you want to use custom dataset for passenger genes filtering (True/False):
 ```
 
 4. File output will be in your custom output folder in part 1. *"The list of files created by the script are as follows,* </br>
-`critical_nodes.csv` contains list of all predicted cancer drivers.
-  2. `cancer_node_importance.jpg` contains a plot showing the distribution of node importance scores.
-  3. `top_k_50_validated_genes.csv` contains top-50 predicted coding cancer drivers. Similarly, the remaining file names with same name convention contain predicted cancer drivers     for different values of threshold.
-  4. `top_k_validated_genes_weighted.csv` contains the number of predicted coding drivers validated using CGC.
-  5. `coding_candidate_drivers_mutations.csv` contains list of predicted coding drivers with mutations.
-  6. `coding_candidate_drivers_no_mutations.csv` contains list of predicted coding drivers without mutations.
-  7. `noncoding_candidate_drivers.csv` contains list of predicted non-coding drivers.
-  8. `performance_metrics.csv` contains precision, recall and f1-score of the predicted coding cancer drivers."* (Mandar, Bioinformatics, 2021)
+*`critical_nodes.csv` contains list of all predicted cancer drivers.* </br>
+*`cancer_node_importance.jpg` contains a plot showing the distribution of node importance scores.* </br>
+*`top_k_50_validated_genes.csv` contains top-50 predicted coding cancer drivers. Similarly, the remaining file names with same name convention contain predicted cancer drivers     for different values of threshold.* </br>
+*`top_k_validated_genes_weighted.csv` contains the number of predicted coding drivers validated using CGC.* </br>
+*`coding_candidate_drivers_mutations.csv` contains list of predicted coding drivers with mutations.* </br>
+*`coding_candidate_drivers_no_mutations.csv` contains list of predicted coding drivers without mutations.* </br>
+*`noncoding_candidate_drivers.csv` contains list of predicted non-coding drivers.* </br>
+*`performance_metrics.csv` contains precision, recall and f1-score of the predicted coding cancer drivers."* </br> (Mandar, Bioinformatics, 2021)
 
 The results are saved in a csv file saved in `Output` directory where each row indicates the number of top-k coding genes found by this approach.
 ## Citation
