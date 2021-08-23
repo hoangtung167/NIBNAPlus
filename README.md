@@ -5,7 +5,7 @@ NIBNA Plus tool is based on NIBNA tool with an addition of passenger genes filte
 To run the program, you need to install `python3` along with the following libaries `seaborn`, `numpy`, `pandas`, `matplotlib`, `scipy`, `python-louvain`, `networkx`, `pygam`. [1]
 
 ## Running the program 
-1. Change the `Data_DIR` and `OUT_DIR` in `utils.py`, `network_node_importance.py`, and `passenger_genes_filtering.py` to the appropriate folder in your computer
+1. Change the `DATA_DIR` and `OUT_DIR` in `utils.py`, `network_node_importance.py`, and `passenger_genes_filtering.py` to the appropriate folder in your computer
 2. In the folder NIBNA Plus, run the script
 ```
 python3 nibna_cancer_driver_script.py
